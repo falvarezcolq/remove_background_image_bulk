@@ -1,32 +1,36 @@
 # remove_background_image_bulk
 
-This script project remove background from images
-## Pre Install
-- You need to have installed python 3.7 or superior
- 
+This script project removes the background from images.
 
-## Instalation
+## Pre-Installation
+- Python 3.7 or higher must be installed.
 
+## Installation
+1. Clone this project and navigate to the folder:
+    ```
+    cd remove_background_image_bulk
+    ```
 
-- After clone this project you need to enter to folder
+2. Create a virtual environment for Python libraries:
+    ```
+    python3 -m venv venv
+    ```
+
+3. Activate the virtual environment:
+    ```
+    source venv/bin/activate
+    ```
+
+4. Install the required libraries:
+    ```
+    pip install pillow
+    pip install rembg
+    ```
+## Run 
+
+For run you need put images on folder 'in' or redirect  input_folder on main.py
+After this, you need to run th main.py file.
 
 ```
-cd remove_background_image_bulk
+python main.py
 ```
-
-Create a virtual enviroment for python libraries.
-```
-python3 -m venv venv
-```
-
-Activate virtual enviroment
-```
-source venv/bin/activate
-```
-
-Install libraries 
-```
-pip install pillow
-pip install rembg
-```
-
