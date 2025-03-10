@@ -29,7 +29,7 @@ This script project removes the background from images.
 ## Run 
 
 For run you need put images on folder 'in' or redirect  input_folder on main.py
-After this, you need to run th main.py file.
+After this, you need to run this command python main.py.
 
 ```
 python main.py
